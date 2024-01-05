@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Satisfy&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #paragraph {
+    font-family: 'DM Serif Display', serif;
+    
+  }
+}
+
+@font-face {
+  font-family: "NoirProRegular";
+  src: url("./assets/fonts/NoirPro/NoirPro-Regular.ttf");
+
+}
+
+@font-face {
+  font-family: "NoirProMedium";
+  src: url("./assets/fonts/NoirPro/NoirPro-Medium.ttf");
+
+}
