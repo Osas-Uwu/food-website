@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+    $('.your-class').slick({
+        setting-name: setting-value
+    });
+
     // Handling scroll for navbar and anchor elements
     //select the nav bar and anchor link to be affected
     const navbar = $('#divScroll')
@@ -63,4 +67,49 @@ $(document).ready(function() {
             buttonElement.removeClass('text-white').addClass('text-black');
         }
     });
-});
+
+
+    // const slider = $('#slider');
+
+    // setInterval(function () {
+    //     const currentTranslate = parseInt(slider.css('transform').split(',')[4]);
+    //     const itemWidth = slider.width() / 3;
+
+    //     slider.css('transform', `translateX(${currentTranslate - itemWidth}px)`);
+
+    //     // Reset to the beginning if reached the end
+    //     if (currentTranslate <= -(itemWidth * (slider.children().length - 1))) {
+    //         slider.css('transform', 'translateX(0)');
+    //     }
+    // }, 10000); // Change 10000 to the desired interval in milliseconds
+
+    //var slideIndex = 0;
+    //var slidesToShow = 3;
+  
+    // $('.slider-container').each(function() {
+    //   var $slider = $(this);
+    //   var $slides = $slider.find('.slider > div');
+    //   var slideWidth = 100 / slidesToShow;
+  
+    //   function updateSlider() {
+    //     $slider.find('.slider').css('transform', 'translateX(' + (-slideIndex * slideWidth) + '%)');
+    //   }
+  
+    //   // Next button click
+    //   $slider.find('.next').on('click', function() {
+    //     if (slideIndex < $slides.length - slidesToShow) {
+    //       slideIndex++;
+    //       updateSlider();
+    //     }
+    //   });
+  
+    //   // Previous button click
+    //   $slider.find('.prev').on('click', function() {
+    //     if (slideIndex > 0) {
+    //       slideIndex--;
+    //       updateSlider();
+    //     }
+    //   });
+    // });
+  });
+  
