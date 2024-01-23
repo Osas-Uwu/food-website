@@ -1,8 +1,16 @@
 $(document).ready(function() {
 
+    // $('.slider-container').slick({
+    //     // setting-name: setting-value
+    //     infinite: true,
+    //     slidesToShow: 3,
+    //     slidesToScroll: 3
+    // });
     $('.your-class').slick({
-        setting-name: setting-value
-    });
+        infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+      });
 
     // Handling scroll for navbar and anchor elements
     //select the nav bar and anchor link to be affected
